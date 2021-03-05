@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calulator">
+        <div id="input-container">
+            <p id="input"></p>
+        </div>
+        <div id="button-container">
+            <!-- Row 1 -->
+            <button id="btn-clear-all" class="side-btn" onclick="fun('AC')">AC</button>
+            <button id="btn-clear" class="side-btn" onclick="fun('C')">C</button>
+            <button id="btn-mod" class="side-btn" onclick="fun('%')">%</button>
+            <button id="btn-division" class="side-btn" onclick="fun('/')">/</button>
+
+            <!-- Row 2 -->
+            <button id="btn-seven" onclick="fun(7)">7</button>
+            <button id="btn-eight" onclick="fun(8)">8</button>
+            <button id="btn-nine" onclick="fun(9)">9</button>
+            <button id="btn-mult" class="side-btn" onclick="fun('*')">*</button>
+
+            <!-- Row 3 -->
+            <button id="btn-four" onclick="fun(4)">4</button>
+            <button id="btn-five" onclick="fun(5)">5</button>
+            <button id="btn-six" onclick="fun(6)">6</button>
+            <button id="btn-subtract" class="side-btn" onclick="fun('-')">-</button>
+
+            <!-- Row 4 -->
+            <button id="btn-one" onclick="fun(1)">1</button>
+            <button id="btn-two" onclick="fun(2)">2</button>
+            <button id="btn-three" onclick="fun(3)">3</button>
+            <button id="btn-add" class="side-btn" onclick="fun('+')">+</button>
+
+            <!-- Row 5 -->
+            <button id="btn-zero" onclick="fun(0)">0</button>
+            <button id="btn-decimal" onclick="fun('.')">.</button>
+            <button id="btn-equal" class="side-btn" onclick="fun('=')">=</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
